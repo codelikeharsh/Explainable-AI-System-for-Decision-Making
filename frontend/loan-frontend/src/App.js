@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./App.css";
 import jsPDF from "jspdf";
+const API_URL = process.env.REACT_APP_API_URL;
+
 
 function App() {
   const [formData, setFormData] = useState({
